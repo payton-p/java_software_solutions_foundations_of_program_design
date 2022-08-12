@@ -11,7 +11,7 @@ public class ScannerExample {
 		
 		String message = scan.nextLine(); 
 		
-		System.out.println("You entered: " + message); 
+		System.out.println("You entered: \n" + message); 
 		
 		scan.close(); 
 	}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/paytonpietron/dev/projects/java_software_solutions_foundations_of_program_design/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+964488883.index
+1758656933.index

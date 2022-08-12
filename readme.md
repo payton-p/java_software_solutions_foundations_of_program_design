@@ -6,3 +6,6 @@ This project correlates to the Java Software Solutions: Foundations of Program D
 - Clone locally 
 - Open the project in Eclipse 
 - Run the relevant program 
+
+## Project details 
+- Java 17

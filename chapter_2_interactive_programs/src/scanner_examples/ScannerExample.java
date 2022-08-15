@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScannerExample {
   public static void main(String[] args) {
-    // Takes input from the keyboard - System.in represents a standard input stream, which be
+    // Takes input from the keyboard - System.in represents a standard input stream, which by
     // default is the keyboard
     Scanner scan = new Scanner(System.in);
 

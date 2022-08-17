@@ -1,4 +1,4 @@
-package notes;
+package helper_notes;
 
 import java.util.Random;
 import java.util.Scanner;

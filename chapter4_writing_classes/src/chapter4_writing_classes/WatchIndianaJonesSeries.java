@@ -19,7 +19,7 @@ public class WatchIndianaJonesSeries {
   }
 
   public static void watchMovie(Movie movie) {
-    System.out.println(movie.toString());
+    System.out.println(movie); // toString is automatically called
     movie.startMovie();
     System.out.println("Movie started.\nEating popcorn.\nDid you finish the movie?: "
         + (movie.isWatched() ? "Yes" : "No") + "\n");

@@ -9,7 +9,6 @@ public class ScannerExample {
     Scanner scan = new Scanner(System.in);
 
     System.out.println("Enter a line of text:");
-
     String message = scan.nextLine();
 
     System.out.println("You entered: \n" + message);

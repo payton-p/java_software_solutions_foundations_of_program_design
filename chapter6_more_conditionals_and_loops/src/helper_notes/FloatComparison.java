@@ -1,4 +1,4 @@
-package chapter6_more_conditionals_and_loops;
+package helper_notes;
 
 public class FloatComparison {
   public static void main(String[] args) {

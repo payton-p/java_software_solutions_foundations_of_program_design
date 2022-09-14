@@ -1,4 +1,4 @@
-package chapter4_writing_classes;
+package helper_notes;
 
 public class WatchIndianaJonesSeries {
   // An example of a constant

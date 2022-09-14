@@ -1,4 +1,4 @@
-package chapter4_writing_classes;
+package helper_notes;
 
 public class Movie {
   // Keep encapsulation in mind

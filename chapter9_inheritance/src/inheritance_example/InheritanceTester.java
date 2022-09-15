@@ -11,6 +11,9 @@ public class InheritanceTester {
 
     System.out.println(generalBook.toString());
     System.out.println("Ratio\n" + webster.getDefinitionsToPagesRatio() + "\n");
-    System.out.println(webster.toString()); // overridden method
+    System.out.println(webster.toString() + "\n"); // overridden method
+
+    // This references the private variable genre of the parent indirectly
+    System.out.println(webster.getGenre());
   }
 }

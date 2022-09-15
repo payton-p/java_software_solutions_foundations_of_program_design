@@ -9,3 +9,6 @@ This project correlates to the Java Software Solutions: Foundations of Program D
 
 ## Project details 
 - Java 17
+
+## Notes
+Largely, the comments in the code throughout this repo paraphrase or directly quote the textbook. In some places, examples have been taken from online resources. These examples have also been marked. 

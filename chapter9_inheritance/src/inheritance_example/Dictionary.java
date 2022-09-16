@@ -7,8 +7,8 @@ public class Dictionary extends Book {
   // same name as ones in the parent
 
   // Constructors are not inherited
-  public Dictionary(int pages, String genre, int definitions) {
-    super(pages, genre); // invokes the constructor of the parent class
+  public Dictionary(int pages, String title, String genre, int definitions) {
+    super(pages, title, genre); // invokes the constructor of the parent class
 
     this.definitions = definitions;
   }

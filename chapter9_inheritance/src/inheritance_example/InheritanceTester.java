@@ -6,8 +6,8 @@ public class InheritanceTester {
     // Instead, we can rely on interfaces. Although a Java class can be derived from only one parent
     // class, it can implement multiple interfaces.
 
-    Book generalBook = new Book(150, "Fiction"); // parent class
-    Dictionary webster = new Dictionary(1700, "Nonfiction", 53000); // child class
+    Book generalBook = new Book(150, "Book", "Fiction"); // parent class
+    Dictionary webster = new Dictionary(1700, "Webster's Dictionary", "Nonfiction", 53000); // child
 
     System.out.println(generalBook.toString());
     System.out.println("Ratio\n" + webster.getDefinitionsToPagesRatio() + "\n");

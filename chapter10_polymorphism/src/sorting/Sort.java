@@ -4,7 +4,7 @@ package sorting;
 // in the list. We say that both selection and insertion sort are algorithms of order n^2.
 
 // Implementing a sort algorithm polymorphically allows it to sort any comparable set of objects.
-public class Sorting {
+public class Sort {
   // The selection sort algorithm sorts a list of values by successively putting particular values
   // in their final, sorted positions.
   public static void selectionSort(Comparable<Object>[] list) {

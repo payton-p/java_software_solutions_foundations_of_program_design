@@ -16,7 +16,7 @@ public class LibraryOrganizer {
   public static void main(String[] args) {
     // Selection sort testing
     Book[] library1 = createUnsortedLibrary();
-    Sorting.selectionSort(library1);
+    Sort.selectionSort(library1);
 
     System.out.println("Selection Sort");
     for (Book book : library1) {
@@ -26,7 +26,7 @@ public class LibraryOrganizer {
 
     // Insertion sort testing
     Book[] library2 = createUnsortedLibrary();
-    Sorting.insertionSort(library2);
+    Sort.insertionSort(library2);
 
     System.out.println("Insertion Sort");
     for (Book book : library2) {

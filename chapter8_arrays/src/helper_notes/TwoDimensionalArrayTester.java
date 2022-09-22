@@ -1,6 +1,6 @@
 package helper_notes;
 
-public class TwoDimensionalArray {
+public class TwoDimensionalArrayTester {
   // Brackets are used to represent each dimension in the array. therefore the type of a 2-D array
   // that stores integers is int[][]. Technically, Java represents 2-D arrays as an array of arrays.
   // A 2-D integer array is really a one-dimensional array of references to one-dimensional integer

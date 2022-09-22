@@ -1,6 +1,6 @@
 package helper_notes;
 
-public class WatchIndianaJonesSeries {
+public class MovieTester {
   // An example of a constant
   private final static String DIRECTOR = "Steven Spielberg";
 

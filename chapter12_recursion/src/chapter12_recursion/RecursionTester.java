@@ -1,6 +1,6 @@
 package chapter12_recursion;
 
-public class RecursionExample {
+public class RecursionTester {
   // The sum of the values from 1 to n, which can be expressed as n plus the sum of the values from
   // 1 to n - 1.
   private static int sum(int n) {

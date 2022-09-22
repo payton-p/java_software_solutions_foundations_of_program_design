@@ -2,7 +2,7 @@ package helper_notes;
 
 import java.util.Scanner;
 
-public class SentinelValue {
+public class SentinelValueTester {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 

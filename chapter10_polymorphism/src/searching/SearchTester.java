@@ -3,7 +3,7 @@ package searching;
 import inheritance_example.Book;
 import sorting.Sort;
 
-public class LibrarySearcher {
+public class SearchTester {
   private static Book[] createLibrary() {
     Book[] library = new Book[3];
 

@@ -2,7 +2,7 @@ package exceptionExamples;
 
 // An exception is first thrown from the top of the stack and if it is not caught, it drops down the
 // call stack to the previous method.
-public class ExceptionPropagation {
+public class ExceptionPropagationTester {
   private void m() {
     int data = 50 / 0; // unchecked exception occurred, exception propagated to n()
     System.out.println(data); // this won't get called
@@ -21,7 +21,7 @@ public class ExceptionPropagation {
   }
 
   public static void main(String args[]) {
-    ExceptionPropagation obj = new ExceptionPropagation();
+    ExceptionPropagationTester obj = new ExceptionPropagationTester();
     obj.p();
     System.out.println("Back to normal flow...");
   }

@@ -2,7 +2,7 @@ package sorting;
 
 import inheritance_example.Book;
 
-public class LibraryOrganizer {
+public class SortTester {
   private static Book[] createUnsortedLibrary() {
     Book[] library = new Book[3];
 

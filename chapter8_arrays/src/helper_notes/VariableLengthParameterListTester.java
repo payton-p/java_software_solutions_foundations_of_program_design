@@ -1,6 +1,6 @@
 package helper_notes;
 
-public class VariableLengthParameterList {
+public class VariableLengthParameterListTester {
   // The ellipsis indicates that the method accepts a variable number of parameters.
   private static void fun(int... integers) {
     System.out.println("Number of arguments: " + integers.length);

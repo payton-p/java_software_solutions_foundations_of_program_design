@@ -1,6 +1,6 @@
 package helper_notes;
 
-public class FloatComparison {
+public class FloatComparisonTester {
   public static void main(String[] args) {
     double a = 1.398447484;
     double b = 1.398447482;

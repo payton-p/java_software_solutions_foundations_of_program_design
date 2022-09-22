@@ -3,7 +3,7 @@ package helper_notes;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Helper {
+public class Tester {
   public static void main(String[] args) {
     // Strings are immutable in Java
     String exampleStr = "I am immutable!";

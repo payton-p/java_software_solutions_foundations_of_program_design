@@ -38,5 +38,8 @@ public class Tester {
     stack.push("to");
     stack.push("Rome");
     System.out.println("\nElements of stack: " + stack);
+
+    // Other data structures include: trees (specifically binary trees), graphs (directed and not
+    // directed), etc.
   }
 }

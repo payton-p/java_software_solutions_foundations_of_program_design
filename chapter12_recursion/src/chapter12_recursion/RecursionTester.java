@@ -1,20 +1,24 @@
 package chapter12_recursion;
 
 public class RecursionTester {
-  // The sum of the values from 1 to n, which can be expressed as n plus the sum of the values from
-  // 1 to n - 1.
-  private static int sum(int n) {
-    int result;
-    if (n == 1) { // base case
-      result = 1;
+  public static void main(String[] args) {
+    // Sum of n natural numbers
+    System.out.println("The sum of the values from 1 to 3 = " + SumNaturalNumbers.sum(3));
+
+    // Solve maze
+    Maze labyrinth = new Maze();
+    System.out.println("\nHere is the maze:\n" + labyrinth);
+
+    if (labyrinth.traverse(0, 0)) {
+      System.out.println("The maze was successfully traversed! Here is the path:");
     } else {
-      result = n + sum(n - 1);
+      System.out.println("There is no possible path.");
     }
 
-    return result;
-  }
+    System.out.println(labyrinth);
 
-  public static void main(String[] args) {
-    System.out.println(sum(3));
+    // Solve Towers of Hanoi puzzle
+    TowersOfHanoi towers = new TowersOfHanoi(4);
+    towers.solve();
   }
 }

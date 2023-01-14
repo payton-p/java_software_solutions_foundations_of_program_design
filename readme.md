@@ -1,4 +1,4 @@
-# Java Fundamentals
+# Java Software Solutions
 This project correlates to the *Java Software Solutions: Foundations of Program Design* textbook. Currently this project offers basic examples of the concepts covered in the textbook. 
 
 ## Installation

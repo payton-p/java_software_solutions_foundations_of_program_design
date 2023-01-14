@@ -11,4 +11,4 @@ This project correlates to the *Java Software Solutions: Foundations of Program 
 - Java 17
 
 ## Notes
-Largely, the comments in the code throughout this repo paraphrase or quote the textbook. In some places, examples have been taken from online resources. These examples have also been marked. 
+Largely, the comments in the code throughout this repo paraphrase or quote the textbook. In some places, examples have been taken from online resources. These examples have also been marked.
